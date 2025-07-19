@@ -1,0 +1,136 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+section.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.column.left, .column.right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.icons .row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #2980b9;
+    margin-right: 15px;
+    margin-top: 6px;
+}
+
+.icons .info .head {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.icons .info .sub-title {
+    font-size: 15px;
+    color: #555;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #2980b9;
+    font-size: 18px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+.contact-form .fields {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #1c5984;
+}
